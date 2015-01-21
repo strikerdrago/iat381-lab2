@@ -16,7 +16,7 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
+  it('should attach a list of awesomeButtons to the scope', function () {
+    expect(scope.awesomeButtons.length).toBe(5);
   });
 });

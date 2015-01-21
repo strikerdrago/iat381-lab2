@@ -9,9 +9,16 @@
  */
 angular.module('myappApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.awesomeButtons = [
+	    {'label': 'Gotta',
+	     'snippet': 'Super Sonic speed'},
+	    {'label': 'Go',
+	     'snippet': 'Just got faster.'},
+	    {'label': 'Fast',
+	     'snippet': 'Super Fast'},
+	    {'label': 'Faster',
+	     'snippet': 'Ultra Fast'},
+	    {'label': 'Fastest',
+	     'snippet': 'Platinum Fast'}
     ];
   });
